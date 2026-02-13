@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>C7-05 パララックス効果で遠近感を出す 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="parallax-container">
+  <div>
+    <h1>パララックス（視差）効果</h1>
+    <p>JavaScriptでスクロール量に応じた3枚の画像位置を変更します。</p>
+  </div>
+  
+  <!-- 奥のレイヤー画像（大きめのふんわり） -->
+  <img src="images/particle2.png" class="layer layer-back" alt="">
+  <!-- 手前のレイヤー画像（小さめのふんわり） -->
+  <img src="images/particle1.png" class="layer layer-front" alt="">
+</div>
+
+<main>
+  <h2>スクロール続きのエリア</h2>
+  <p>下へスクロールしながら、2枚の画像が異なる速度で動く様子を確認できます。</p>
+</main>
+  <script src="script.js"></script>
+</body>
+</html>

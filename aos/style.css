@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* 基本スタイル */
+h1 {
+    text-align: center;
+    margin: 50vh 0;
+}
+
+h2 {
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+

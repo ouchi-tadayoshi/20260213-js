@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body {
+    text-align: center;
+}
+
+h1 {
+    margin: 50vh 0;
+}
+
+p {
+    font-size: 2rem;
+    margin-bottom: 20rem;
+}
+
+/* 文字をランダムに表示 */
+.tarfet span {
+    display: inline-block;
+    transition: 1s;
+    opacity: 0;
+    translate: 0 50px;
+}
+
+.target span.is-animated {
+    opacity: 1;
+    translate: 0;
+}

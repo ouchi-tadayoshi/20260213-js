@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* 基本スタイル */
+body {
+  text-align: center;
+}
+header,
+main {
+  padding: 60px 20px;
+  text-align: center;
+}
+main {
+  height: 800px;
+}
+
+/* 背景画像のパララックス */
+
+#parallax {
+  /* JSで位置を制御するため、最初は固定しない */
+  background: url(../C7-05a/images/mountain.jpg)
+    center/cover no-repeat;
+  height: 600px;
+}
